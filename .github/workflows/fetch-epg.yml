@@ -6,7 +6,7 @@ on:
   workflow_dispatch: # Allows manual trigger from the Actions tab
 
 jobs:
-  fetch_epg_job: # Job name without hyphens
+  fetch_epg_job:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 1
 
       - name: Log EPG_URL variable
-        run: echo "Fetching EPG from URL: ${{ secrets.EPG_URL }}"
+        run: echo 'Fetching EPG from URL: ${{ secrets.EPG_URL }}'
 
       - name: Download EPG file
         run: |
