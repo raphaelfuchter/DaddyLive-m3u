@@ -1,4 +1,4 @@
-name: Download EPG
+name: Fetch EPG
 
 on:
   schedule:
