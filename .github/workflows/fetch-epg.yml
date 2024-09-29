@@ -15,9 +15,6 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Log EPG_URL variable
-        run: echo 'Fetching EPG from URL: ${{ secrets.EPG_URL }}'
-
       - name: Download EPG file
         run: |
           curl -fSL "${{ secrets.EPG_URL }}" -o epg.xml
