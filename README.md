@@ -4,7 +4,9 @@ DaddyLive is a platform that offers free live TV and sports streaming across sel
 
 For added flexibility, this repository provides an M3U playlist featuring DaddyLive's channels. With this, you can load the streams into any IPTV application that supports M3U-formatted playlists, giving you more options for how you enjoy the content.
 
-You can view the full list of channels provided by DaddyLive [here](https://href.li/?https://dlhd.so/24-7-channels.php).
+You can view the full list of channels provided by DaddyLive [here](https://href.li/?https://dlhd.so/24-7-channels.php). 
+
+**Note:** Adult channels have been excluded from the main playlist. If you wish to include these channels, they can be accessed [here](https://github.com/dtankdempse/daddylive-m3u/tree/main/adult).
 
 ## Playlist Formats:
 
