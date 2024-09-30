@@ -42,7 +42,7 @@ If none of these playlists work with your IPTV application, you can try using th
 
 1. Choose the playlist format that suits your application or media player.
 2. Add the playlist URL to your IPTV application.
-3. Ensure that your application supports the required settings, such as setting the `Referer` header for streams to play.
+3. Ensure that your application supports the required settings, such as setting the required headers for streams to play.
 
 ## Playlist and EPG Syncing:
 
