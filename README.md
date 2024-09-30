@@ -9,7 +9,7 @@ Add DaddyLive TV & Sports streams to your IPTV application using the M3U playlis
   
   **Playlist:** `http://example.com`  
   **EPG URL:** `http://example.com`  
-  **Referer:** `https://lewblivehdplay.ru`
+  **Referer:** `https://lewblivehdplay.ru`    
   **User-Agent:** `Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2`     
 
 - **tivimate_playlist.m3u8:**
@@ -17,7 +17,7 @@ Add DaddyLive TV & Sports streams to your IPTV application using the M3U playlis
   
    **Playlist:** `http://example.com`  
    **EPG URL:** `http://example.com`  
-   **Referer:** `Included`
+   **Referer:** `Included`  
    **User-Agent:** `Included` 
 
 - **kodi_playlist.m3u8:**
@@ -25,7 +25,7 @@ Add DaddyLive TV & Sports streams to your IPTV application using the M3U playlis
 	
    **Playlist:** `http://example.com`  
    **EPG URL:** `http://example.com`  
-   **Referer:** `Included`
+   **Referer:** `Included`  
    **User-Agent:** `Included` 
 
 - **vlc_playlist.m3u8:**
@@ -33,7 +33,7 @@ Add DaddyLive TV & Sports streams to your IPTV application using the M3U playlis
   
    **Playlist:** `http://example.com`  
    **EPG URL:** `http://example.com`  
-   **Referer:** `Included`
+   **Referer:** `Included`  
    **User-Agent:** `Included` 
 
 If none of these playlists work with your IPTV application, you can try using the m3u8-playlist-proxy (coming soon). This proxy acts as a middle layer to help resolve potential issues with playing the playlists, especially if your IPTV app doesn't support setting the required headers.
