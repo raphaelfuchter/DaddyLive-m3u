@@ -1,38 +1,42 @@
 # DaddyLive Live TV & Sports Playlists
 
-Add DaddyLive TV & Sports streams to your IPTV application using the M3U playlists provided in this repository. There are four different playlist formats available, each tailored for specific applications or media players.
+DaddyLive is a platform that offers free live TV and sports streaming across selected categories. Users can stream and watch live TV directly through their browser without the need for an account or subscription.
+
+For added flexibility, this repository provides an M3U playlist featuring DaddyLive's channels. With this, you can load the streams into any IPTV application that supports M3U-formatted playlists, giving you more options for how you enjoy the content.
+
+You can view the full list of channels provided by DaddyLive [here](https://href.li/?https://dlhd.so/24-7-channels.php).
 
 ## Playlist Formats:
 
 - **playlist.m3u8:**
-  A standard M3U playlist. If you're using this playlist, make sure your IPTV application allows the setting of a custom `Referer` and `User-Agent` header. The headers must be set in order to access the streams. Failure to set these required headers will result in a 403 error when attempting to stream.
+  A standard M3U playlist. If you're using this playlist, make sure your IPTV application allows the setting of a custom `Referer` and `User-Agent` header. The headers must be set in order to access the streams. Failure to set the required headers will result in a 403 error when attempting to stream.
   
-  **Playlist:** `http://example.com`  
-  **EPG URL:** `http://example.com`  
+  **Playlist:** `https://tinyurl.com/ddy-m3u1`  
+  **EPG URL:** `https://tinyurl.com/ddy-epg1`  
   **Referer:** `https://lewblivehdplay.ru`    
   **User-Agent:** `Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2`     
 
 - **tivimate_playlist.m3u8:**
   This playlist is specifically formatted for use with TiviMate. To use it, simply load the URL provided in this repository into Tivimate as an "M3U Playlist." No additional setup is needed as Tivimate handles the required headers for playback.
   
-   **Playlist:** `http://example.com`  
-   **EPG URL:** `http://example.com`  
+   **Playlist:** `https://tinyurl.com/ddy-m3u2`  
+   **EPG URL:** `https://tinyurl.com/ddy-epg1`  
    **Referer:** `Included`  
    **User-Agent:** `Included` 
 
 - **kodi_playlist.m3u8:**
 	This playlist is designed for Kodi, utilizing `#KODIPROP` properties to handle the necessary stream settings, including the required headers. It is optimized for Kodi's PVR IPTV Simple Client, ensuring compatibility with your Kodi setup. This format is primarily designed for Kodi, but it may or may not be compatible with other applications.
 	
-   **Playlist:** `http://example.com`  
-   **EPG URL:** `http://example.com`  
+   **Playlist:** `https://tinyurl.com/ddy-m3u3`  
+   **EPG URL:** `https://tinyurl.com/ddy-epg1`  
    **Referer:** `Included`  
    **User-Agent:** `Included` 
 
 - **vlc_playlist.m3u8:**
   Optimized for VLC Media Player. This playlist uses VLC-specific formatting to ensure streams play correctly, including setting the necessary headers via `#EXTVLCOPT`. This format is primarily designed for VLC, but it may or may not be compatible with other applications.
   
-   **Playlist:** `http://example.com`  
-   **EPG URL:** `http://example.com`  
+   **Playlist:** `https://tinyurl.com/ddy-m3u4`  
+   **EPG URL:** `https://tinyurl.com/ddy-epg1`  
    **Referer:** `Included`  
    **User-Agent:** `Included` 
 
@@ -43,14 +47,6 @@ If none of these playlists work with your IPTV application, you can try using th
 1. Choose the playlist format that suits your application or media player.
 2. Add the playlist URL to your IPTV application.
 3. Ensure that your application supports the required settings, such as setting the required headers for streams to play.
-
-## Playlist and EPG Syncing:
-
-The playlist and EPG data are updated every 4 hours. Since streaming data can change frequently, it’s recommended to sync the refresh of both your playlist and guide information simultaneously in your IPTV application. If you notice 'No information' being displayed in the guide, try manually refreshing the EPG within your application to ensure the most up-to-date data is loaded.
-
-## Sports:
-
-Basketball, Football, American Football, Hockey, Baseball, Motor Sports, Fight (UFC, Boxing), Tennis, Rugby, Golf, Billiards, AFL, Darts, Cricket, Other
 
 ## Disclaimer:
 
