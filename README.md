@@ -15,7 +15,7 @@ You can view the full list of channels provided by DaddyLive [here](https://href
   
   **Playlist:** `https://tinyurl.com/ddy-m3u1`  
   **EPG URL:** `https://tinyurl.com/ddy-epg1`  
-  **Referer:** `https://ilovetoplay.xyz/`    
+  **Referer:** `https://lewblivehdplay.ru/`    
   **User-Agent:** `Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_0 like Mac OS X) AppleWebKit/605.2.10 (KHTML, like Gecko) Version/17.6.0 Mobile/16F152 Safari/605.2`     
 
 - **tivimate_playlist.m3u8:**
