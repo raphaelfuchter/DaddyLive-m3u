@@ -42,7 +42,7 @@ You can view the full list of channels provided by DaddyLive [here](https://href
    **Referer:** `Included`  
    **User-Agent:** `Included` 
 
-If none of these playlists work with your IPTV application, you can try using the m3u8-playlist-proxy (coming soon). This proxy acts as a middle layer to help resolve potential issues with playing the playlists, especially if your IPTV app doesn't support setting the required headers.
+If none of these playlists work with your IPTV application, you can try using the [m3u-playlist-proxy](https://github.com/dtankdempse/m3u-playlist-proxy). This proxy acts as a middle layer to help resolve potential issues with playing the playlists, especially if your IPTV app doesn't support setting the required headers.
 
 ## Usage Instructions:
 
