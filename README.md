@@ -9,8 +9,8 @@ You can view the full list of channels provided by DaddyLive [here](https://dadd
 ## tivimate_playlist.m3u8:
 Load the URL provided in this repository into Tivimate as an "M3U Playlist."
   
-   **Playlist:** `https://tinyurl.com/yc6uwcac`  
-   **EPG URL:** `https://tinyurl.com/3stjhbay`  
+   **Playlist:** `https://raw.githubusercontent.com/vinny307/daddylive-m3u/refs/heads/main/tivimate_playlist.m3u8`  
+   **EPG URL:** `https://raw.githubusercontent.com/vinny307/daddylive-m3u/refs/heads/main/epg.xml`  
 
 ## Disclaimer:
 
