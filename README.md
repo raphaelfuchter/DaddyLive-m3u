@@ -5,7 +5,11 @@ For added flexibility, this repository provides an M3U playlist featuring DaddyL
 
 You can view the full list of channels provided by DaddyLive [here](https://daddylive.dad/24-7-channels.php). 
 
-**Note:** Adult channels have been omitted (you goon).
+## Notes: 
+
+Adult channels have been omitted (you goon).
+
+At the time of compiling this list, a few streams were down so if they existed in TVPass, they were used as a substitute, otherwise they were removed entirely.
 ## tivimate_playlist.m3u8:
 Load the URL provided in this repository into Tivimate as an "M3U Playlist."
   
