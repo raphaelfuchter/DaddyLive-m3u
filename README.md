@@ -30,7 +30,9 @@ run **curl.py** to curl each URL. This is essentially what your browser does any
 ```
 python3 curl.py
 ```
-This should return HTTP/2 200 for every source. The signature URLs generated refresh after a certain interval so if you wait too long to perform this curl, you'll likely encounter HTTP/2 403. If that happens, start over from generate_auth_list.py.
+This should begin returning HTTP/2 200 for every source. Do not interrupt it.
+
+The signature URLs generated refresh after a certain interval so if you wait too long to perform this curl, you'll likely encounter HTTP/2 403. If that happens, start over from generate_auth_list.py.
 
 # Playlist
 That's it. All streams should now be decrypted.
