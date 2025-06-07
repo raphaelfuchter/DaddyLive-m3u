@@ -5,17 +5,21 @@ For added flexibility, this repository provides an M3U playlist featuring DaddyL
 
 You can view the full list of channels provided by DaddyLive [here](https://daddylive.dad/24-7-channels.php). 
 
-**Notes:**
+<ins>**IN ORDER FOR STREAMS TO PLAY YOU NEED TO HAVE SOME SORT OF FORWARD PROXY SERVER RUNNING.**</ins>
 
-* Adult channels have been omitted (you goon).
+NordVPNs Threat Protection will also act as a forward proxy if you happen to have that. I don't know what/if other VPNs have a similar feature, I can only confirm for Nord as that's what I own. Python script for proxy is provided.
 
-* At the time of compiling this list, a few streams were down so if they existed in TVPass, they were used as a substitute, otherwise they were removed entirely.
+At the time of compiling this list, a few streams were down so if they existed in TVPass, they were used as a substitute, otherwise they were removed entirely.
+
+Adult channels have been omitted <sub>(you gooners)</sub>.
+
+
 # Instructions
-Clone the project.
+Choose somewhere you wanna save these files, cd into that directory in terminal, and clone the project.
 ```
 git clone https://github.com/vinny307/daddylive-m3u.git
 ```
-cd into it and run **generate_auth_list.py**. This will compile each streams channel key, authTs, authRnd, and authSig.
+cd into the project and run **generate_auth_list.py**. This will compile each streams channel key, authTs, authRnd, and authSig.
 ```
 cd daddylive-m3u
 python3 generate_auth_list.py
