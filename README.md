@@ -24,7 +24,7 @@ cd into the project and run **generate_auth_list.py**. This will compile each st
 cd daddylive-m3u
 python3 generate_auth_list.py
 ```
-This will take a minutes to enumerate. Do not interrupt it.
+This will take a minute to enumerate. Do not interrupt it.
 
 When it finishes, run **generate_signature_urls.py** to compile all of the stream signatures into URLs that are used to unlock the decryption keys.
 ```
