@@ -49,7 +49,7 @@ That's it. All streams should now be decrypted.
 Load the URLs below into Tivimate as an "M3U Playlist."
   
    **Playlist:** `https://raw.githubusercontent.com/vinny307/daddylive-m3u/refs/heads/main/tivimate_playlist.m3u8`  
-   **EPG URL:** `https://raw.githubusercontent.com/vinny307/daddylive-m3u/refs/heads/main/epg.xml`  **DOES NOT WORK. Looking into it.**
+   **EPG URL:** `https://raw.githubusercontent.com/vinny307/daddylive-m3u/refs/heads/main/epg.xml`
 
 # Disclaimer:
 
