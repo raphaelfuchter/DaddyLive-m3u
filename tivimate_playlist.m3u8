@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://raw.githubusercontent.com/vinny307/daddylive-m3u/refs/heads/main/epg.xml"
+#EXTM3U url-tvg="https://raw.githubusercontent.com/phosani/daddylive-m3u/refs/heads/main/epg.xml"
 #EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true|name=premium51|number=1",IV=0x30303030303030303030303068418f96,KEYFORMAT="identity"
 #EXTINF:-1 tvg-id="WABC.us" tvg-name="ABC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/abc-us.png" group-title="USA (DADDY LIVE)" ,ABC
 https://zekonew.newkso.ru/zeko/premium51/mono.m3u8|Referer="https://allupplay.xyz/"|Origin="https://allupplay.xyz"
