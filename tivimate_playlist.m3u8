@@ -60,9 +60,9 @@ https://zekonew.newkso.ru/zeko/premium300/mono.m3u8|Referer="https://allupplay.x
 #EXTINF:-1 tvg-id="CNBC.us" tvg-name="CNBC" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cnbc-us.png" group-title="USA (DADDY LIVE)" ,CNBC
 https://zekonew.newkso.ru/zeko/premium309/mono.m3u8|Referer="https://allupplay.xyz/"|Origin="https://allupplay.xyz"
 
-#EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true&name=ustvcomedycentral&number=1",IV=0x303030303030303030303030684457a5,KEYFORMAT="identity"
+#EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true|name=premium310|number=1",IV=0x30303030303030303030303068418f96,KEYFORMAT="identity"
 #EXTINF:-1 tvg-id="ComedyCentral.us" tvg-name="Comedy Central" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/comedy-central-us.png" group-title="USA (DADDY LIVE)" ,Comedy Central
-https://wikinew.newkso.ru/wiki/ustvcomedycentral/mono.m3u8|Referer="https://allupplay.xyz/"|Origin="https://allupplay.xyz"
+https://zekonew.newkso.ru/zeko/premium310/mono.m3u8|Referer="https://allupplay.xyz/"|Origin="https://allupplay.xyz"
 
 #EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true|name=premium339|number=1",IV=0x30303030303030303030303068418fc3,KEYFORMAT="identity"
 #EXTINF:-1 tvg-id="CartoonNetwork.us" tvg-name="Cartoon Network" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/cartoon-network-us.png" group-title="USA (DADDY LIVE)" ,Cartoon Network
@@ -104,9 +104,9 @@ https://windnew.newkso.ru/wind/premium750/mono.m3u8|Referer="https://allupplay.x
 #EXTINF:-1 tvg-id="DiscoveryLifeChannel.us" tvg-name="Discovery Life Channel" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3a/Discovery_Life_Channel_logo_official_png.png/revision/latest?cb=20150131181202" group-title="USA (DADDY LIVE)" ,Discovery Life Channel
 https://zekonew.newkso.ru/zeko/premium311/mono.m3u8|Referer="https://allupplay.xyz/"|Origin="https://allupplay.xyz"
 
-#EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true&name=ustvdisney&number=1",IV=0x303030303030303030303030683d8a17,KEYFORMAT="identity"
+#EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true|name=premium312|number=1",IV=0x30303030303030303030303068418f96,KEYFORMAT="identity"
 #EXTINF:-1 tvg-id="DisneyChannel.us" tvg-name="Disney Channel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/disney-channel-us.png" group-title="USA (DADDY LIVE)" ,Disney Channel
-https://wikinew.newkso.ru/wiki/ustvdisney/mono.m3u8|Referer="https://allupplay.xyz/"|Origin="https://allupplay.xyz"
+https://zekonew.newkso.ru/zeko/premium312/mono.m3u8|Referer="https://allupplay.xyz/"|Origin="https://allupplay.xyz"
 
 #EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true|name=premium313|number=1",IV=0x30303030303030303030303068418f96,KEYFORMAT="identity"
 #EXTINF:-1 tvg-id="DiscoveryChannel.us" tvg-name="Discovery Channel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/discovery-channel-us.png" group-title="USA (DADDY LIVE)" ,Discovery Channel
