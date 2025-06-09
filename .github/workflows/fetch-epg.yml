@@ -1,39 +1,68 @@
-name: Fetch EPG
+name: Fetch and Update EPG
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight UTC
+    # Runs daily at 16:10 UTC (which is 12:10 PM EDT/EST in your timezone)
+    # This will execute at 12:10 PM Florida time.
+    - cron: '10 16 * * *'
   workflow_dispatch: # Allows manual trigger from the Actions tab
 
 jobs:
   fetch_epg_job:
     runs-on: ubuntu-latest
+    # Give the workflow the necessary permissions for the GITHUB_TOKEN itself,
+    # though the PAT will handle the actual push to the upstream repo.
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          # Specify the target repository where you want to push changes
+          repository: phosani/daddylive-m3u
+          # Specify the branch to update (usually 'main')
+          ref: main
+          fetch-depth: 1 # Only fetch the latest commit
 
       - name: Download EPG file
         run: |
-          curl -fSL "${{ secrets.EPG_URL }}" -o epg.xml
+          # Use curl to download the XML file directly
+          curl -fSL "http://m3u4u.com/xml/dqr6yw74z4umv4rkyx1w" -o epg.xml
 
-      - name: Log the downloaded file details
+      - name: Log downloaded file details
         run: |
+          # Check if the file was downloaded successfully and log its size
           if [ -f "epg.xml" ]; then
             echo "EPG file downloaded successfully."
             ls -lh epg.xml
           else
-            echo "Failed to download the EPG file."
+            echo "Failed to download the EPG file. Exiting."
+            exit 1 # Fail the job if download fails
           fi
 
-      - name: Commit and push the EPG file (Squash Commit)
+      - name: Check for changes
+        id: check_changes # Assign an ID to this step to reference its output
         run: |
-          git config --global user.name "actions-user"
-          git config --global user.email "actions@github.com"
-          git add epg.xml
-          git commit -m "Update EPG file"
-          git push --force-with-lease
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Compare the downloaded file with the existing one in the repo
+          # If 'git diff' finds differences, it exits with a non-zero code.
+          # We capture this to set a flag.
+          git diff --exit-code epg.xml || echo "CHANGES_DETECTED=true" >> "$GITHUB_OUTPUT"
+
+      - name: Commit and push the EPG file if changed
+        # This step only runs if CHANGES_DETECTED was set to true
+        if: ${{ steps.check_changes.outputs.CHANGES_DETECTED == 'true' }}
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          # Commit message for the update
+          commit_message: "feat: Update EPG data"
+          # Only apply changes to the epg.xml file
+          file_pattern: epg.xml
+          # Use the PAT secret you created for authentication
+          token: ${{ secrets.GH_PAT_FOR_UPSTREAM }}
+
+      - name: No changes detected
+        # This step only runs if CHANGES_DETECTED was NOT set to true
+        if: ${{ steps.check_changes.outputs.CHANGES_DETECTED != 'true' }}
+        run: |
+          echo "EPG file is already up to date. No commit needed."
