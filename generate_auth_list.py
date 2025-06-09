@@ -51,7 +51,7 @@ for file_name in input_files:
                         f'curl -i -H "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" '
                         f'-H "origin: https://allupplay.xyz" -H "referer: https://allupplay.xyz/" '
                         f'"https://lefttoplay.xyz/premiumtv/daddylivehd.php?id={channel_id}" | '
-                        f'grep -E "var channelKey|var authTs|var authRnd|var authSig" > channelAuth.txt'
+                        f'grep -E "var channelKey|var authTs|var authRnd|var authSig" >> channelAuth.txt'
                     )
                     subprocess.run(curl_cmd, shell=True)
     else:
