@@ -17,7 +17,7 @@ Adult channels have been omitted <sub>(you gooners)</sub>.
 # Instructions
 Choose somewhere you wanna save these files, cd into that directory in terminal, and clone the project.
 ```
-git clone https://github.com/vinny307/daddylive-m3u.git
+git clone https://github.com/phosani/daddylive-m3u.git
 ```
 cd into the project and run **generate_auth_list.py**. This will compile each streams channel key, authTs, authRnd, and authSig.
 ```
@@ -48,8 +48,8 @@ That's it. All streams should now be decrypted.
 
 Load the URLs below into Tivimate as an "M3U Playlist."
   
-   **Playlist:** `https://raw.githubusercontent.com/vinny307/daddylive-m3u/refs/heads/main/tivimate_playlist.m3u8`  
-   **EPG URL:** `https://raw.githubusercontent.com/vinny307/daddylive-m3u/refs/heads/main/epg.xml`
+   **Playlist:** `https://raw.githubusercontent.com/phosani/daddylive-m3u/refs/heads/main/tivimate_playlist.m3u8`  
+   **EPG URL:** `https://raw.githubusercontent.com/phosani/daddylive-m3u/refs/heads/main/epg.xml`
 
 # Disclaimer:
 
