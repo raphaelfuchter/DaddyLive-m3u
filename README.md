@@ -51,6 +51,8 @@ Load the URLs below into Tivimate as an "M3U Playlist."
    **Playlist:** `https://tinyurl.com/2wrkh9tw`  
    **EPG URL:** `https://tinyurl.com/2hu2f68t`
 
+If you ever receive Error 403 in the future, they may have refreshed their Auth sigs. In that case delete the ChannelAuth.txt created by generate_auth_list.py and repeat the above instructions.
+
 # Disclaimer:
 
 This repository has no control over the streams, links, or the legality of the content provided by daddylive.dad (including all mirror sites). It is the end user's responsibility to ensure the legal use of these streams, and we strongly recommend verifying that the content complies with the laws and regulations of your country before use.
