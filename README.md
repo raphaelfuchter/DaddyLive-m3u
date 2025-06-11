@@ -51,7 +51,7 @@ Load the URLs below into Tivimate as an "M3U Playlist."
    **Playlist:** `https://tinyurl.com/2wrkh9tw`  
    **EPG URL:** `https://tinyurl.com/2hu2f68t`
 
-If you ever receive Error 403 in the future, they may have refreshed their Auth sigs. In that case delete the ChannelAuth.txt created by generate_auth_list.py and repeat the above instructions.
+If you ever receive Error 403 in the future, they may have refreshed their streams. In that case delete the ChannelAuth.txt created by generate_auth_list.py and repeat the above instructions.
 
 # Disclaimer:
 
