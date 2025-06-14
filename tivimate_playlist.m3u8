@@ -104,13 +104,13 @@ https://windnew.newkso.ru/wind/premium750/mono.m3u8|Referer="https://allupplay.x
 #EXTINF:-1 tvg-id="DiscoveryLifeChannel.us" tvg-name="Discovery Life Channel" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/3a/Discovery_Life_Channel_logo_official_png.png/revision/latest?cb=20150131181202" group-title="USA (DADDY LIVE)" ,Discovery Life Channel
 https://zekonew.newkso.ru/zeko/premium311/mono.m3u8|Referer="https://allupplay.xyz/"|Origin="https://allupplay.xyz"
 
-#EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true|name=premium312|number=1",IV=0x30303030303030303030303068418f96,KEYFORMAT="identity"
+#EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true&name=ustvdisney&number=1",IV=0x303030303030303030303030683d8a17,KEYFORMAT="identity"
 #EXTINF:-1 tvg-id="DisneyChannel.us" tvg-name="Disney Channel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/disney-channel-us.png" group-title="USA (DADDY LIVE)" ,Disney Channel
-https://zekonew.newkso.ru/zeko/premium312/mono.m3u8|Referer="https://allupplay.xyz/"|Origin="https://allupplay.xyz"
+https://wikinew.newkso.ru/wiki/ustvdisney/mono.m3u8|Referer="https://allupplay.xyz/"|Origin="https://allupplay.xyz"
 
 #EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true|name=premium313|number=1",IV=0x30303030303030303030303068418f96,KEYFORMAT="identity"
 #EXTINF:-1 tvg-id="DiscoveryChannel.us" tvg-name="Discovery Channel" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/discovery-channel-us.png" group-title="USA (DADDY LIVE)" ,Discovery Channel
-https://zekonew.newkso.ru/zeko/premium313/mono.m3u8|Referer="https://allupplay.xyz/"|Origin="https://allupplay.xyz"
+https://wikinew.newkso.ru/wiki/ustvdisney/mono.m3u8|Referer="https://allupplay.xyz/"|Origin="https://allupplay.xyz"
 
 #EXT-X-KEY:METHOD=AES-128,URI="https://key2.keylocking.ru/wmsxx.php?test=true|name=premium657|number=1",IV=0x30303030303030303030303068418f68,KEYFORMAT="identity"
 #EXTINF:-1 tvg-id="DiscoveryFamilyChannel.us" tvg-name="Discovery Family" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/discovery-family-us.png" group-title="USA (DADDY LIVE)" ,Discovery Family
