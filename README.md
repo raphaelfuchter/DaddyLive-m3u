@@ -9,7 +9,7 @@ You can view the full list of channels provided by DaddyLive [here](https://dadd
 
 NordVPNs Threat Protection will also act as a forward proxy if you happen to have that. I don't know what/if other VPNs have a similar feature, I can only confirm for Nord as that's what I own. Python script for proxy is provided.
 
-At the time of compiling this list, a few streams were down so if they existed in TVPass & MoveOnJoy, they were used as a substitute, otherwise they were removed entirely.
+At the time of compiling this list, a few streams were down so if they existed in TVPass, they were used as a substitute, otherwise they were removed entirely.
 
 Adult channels have been omitted <sub>(you gooners)</sub>.
 
