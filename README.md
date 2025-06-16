@@ -36,7 +36,7 @@ python3 curl.py
 ```
 This should begin returning HTTP/2 200 for every source. Do not interrupt it.
 
-The signature URLs generated refresh after a certain interval so if you wait too long to perform this curl, you'll likely encounter HTTP/2 403. If that happens, start over from generate_auth_list.py.
+The signature URLs generated expire after a certain interval so if you wait too long to perform this curl, you'll likely encounter HTTP/2 403. If that happens, delete the channelAuth.txt file created, and start over from generate_auth_list.py.
 
 Now enable whatever forward proxy you have or if you choose to use the one provided:
 ```
