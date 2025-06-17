@@ -13,6 +13,8 @@ At the time of compiling this list, a few streams were down so if they existed i
 
 Adult channels have been omitted <sub>(you gooners)</sub>.
 
+**These scripts were made with linux commands in mind so in order for them to work properly, you either need to be running Linux or Windows Subsystem for Linux (WSL).**
+
 
 # Instructions
 Choose somewhere you wanna save these files, cd into that directory in terminal, and clone the project.
