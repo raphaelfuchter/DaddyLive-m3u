@@ -26,18 +26,18 @@ def parse_channel_auth():
                 if match:
                     current_id = match.group(1)
                     channel_data[current_id] = {}
-            elif current_id and 'var authTs' in line:
-                match = re.search(r'var authTs = "(\d+)"', line)
+            elif current_id and 'var __c' in line:
+                match = re.search(r'var __c = "(\d+)"', line)
                 if match:
-                    channel_data[current_id]['authTs'] = match.group(1)
-            elif current_id and 'var authRnd' in line:
-                match = re.search(r'var authRnd = "(\d+)"', line)
+                    channel_data[current_id]['__c'] = match.group(1)
+            elif current_id and 'var __d' in line:
+                match = re.search(r'var __d = "(\d+)"', line)
                 if match:
-                    channel_data[current_id]['authRnd'] = match.group(1)
-            elif current_id and 'var authSig' in line:
-                match = re.search(r'var authSig = "([a-f0-9]+)"', line)
+                    channel_data[current_id]['__d'] = match.group(1)
+            elif current_id and 'var __e' in line:
+                match = re.search(r'var __e = "([a-f0-9]+)"', line)
                 if match:
-                    channel_data[current_id]['authSig'] = match.group(1)
+                    channel_data[current_id]['__e'] = match.group(1)
     return channel_data
 
 # Step 1: Execute first curl command for each channel ID
@@ -51,7 +51,7 @@ for file_name in input_files:
                         f'curl -i -H "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" '
                         f'-H "origin: https://allupplay.xyz" -H "referer: https://allupplay.xyz/" '
                         f'"https://lefttoplay.xyz/premiumtv/daddylivehd.php?id={channel_id}" | '
-                        f'grep -E "var channelKey|var authTs|var authRnd|var authSig" >> channelAuth.txt'
+                        f'grep -E "var channelKey|var __c|var __d|var __e" >>channelAuth.txt'
                     )
                     subprocess.run(curl_cmd, shell=True)
     else:
