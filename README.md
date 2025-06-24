@@ -44,9 +44,10 @@ Now enable whatever forward proxy you have or if you choose to use the one provi
 ```
 python3 fproxy.py
 ```
+In your Android TV box network settings, add the IP of the device hosting the proxy, port 8866, and remove localhost as an exception.
 
 # Playlist
-That's it. All streams should now be decrypted.
+That's it. All streams should now be ready for decryption upon playback.
 
 Load the URLs below into Tivimate as an "M3U Playlist."
   
