@@ -3,7 +3,7 @@ import re
 import os
 
 # List of input files containing channel IDs
-input_files = ['nfs.txt', 'wind.txt', 'zeko.txt', 'dokko1.txt']
+input_files = ['nfs.txt', 'wind.txt', 'zeko.txt', 'dokko1.txt', 'rf.txt']
 
 # Clear or create channelAuth.txt
 with open('channelAuth.txt', 'w') as f:
